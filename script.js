@@ -1,6 +1,6 @@
 // Typing Effect
 const typed = new Typed(".typed-text", {
-  strings: ["Muneeb Fayaz", "Front-End Developer", "Creative Coder"],
+  strings: ["Muneeb Fayaz", "Front-End Developer", "Coder"],
   typeSpeed: 50,
   backSpeed: 25,
   loop: true,
@@ -24,3 +24,4 @@ setInterval(() => {
   document.querySelector(".hearts-container").appendChild(heart);
   setTimeout(() => heart.remove(), 8000);
 }, 400);
+
